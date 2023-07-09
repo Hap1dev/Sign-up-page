@@ -1,2 +1,2 @@
 # sign-up-page
-a simple signup page
+this is a simple signup page using html and css,it has no other functionalities.
