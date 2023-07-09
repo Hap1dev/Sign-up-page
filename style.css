@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(236, 252, 203);
+    background-image: radial-gradient(at 50% 95%, rgb(67, 56, 202) 0, transparent 97%), radial-gradient(at 52% 16%, rgb(251, 191, 36) 0, transparent 96%), radial-gradient(at 98% 69%, rgb(94, 234, 212) 0, transparent 100%), radial-gradient(at 91% 56%, rgb(17, 24, 39) 0, transparent 85%), radial-gradient(at 0% 99%, rgb(253, 164, 175) 0, transparent 100%), radial-gradient(at 38% 11%, rgb(30, 64, 175) 0, transparent 34%);
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: white;
+    /* backdrop-filter: blur(20px); */
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.signup-header h1{
+    font-size: 2.5rem;
+}
+
+.signup-header p{
+    color: grey;
+    font-size: 1rem;
+}
+
+.signup-body{
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    display: block;
+    /* font-weight: bold */
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #cccc;
+    border-radius: 13px;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.signup-body p input[type = "submit"]{
+    border: none;
+    cursor: pointer;
+}
+
+.signup-body p input[type = "submit"]:hover{
+    background-color: #727272cc;
+}
+
+.signup-footer p{
+    color: #555;
+    text-align: center;
+}
+
+.signup-footer p a{
+    color: #2773a5;
+    text-decoration: none;
+    margin-left: 5px;
+}
